@@ -1,0 +1,90 @@
+
+/*tło*/
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header  {
+    min-height: 100vh;
+    background: url("christmas.png") no-repeat center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.snow, .snow2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("snow.png");
+}
+
+.snow {
+    background-size: 70em;
+    animation: snowfall 30s linear infinite;
+}
+
+.snow2 {
+    background-size: 50em;
+    animation: snowfall 30s linear infinite;
+    opacity: 0.5;
+}
+
+.text {
+    color: #fff;
+    text-align: center;
+}
+
+.text h1 {
+    font-family: 'Frijole', cursive;
+    font-size: 4em;
+    text-shadow: 5px 5px 10px #111;
+}
+
+.text p {
+    font-family: 'Courgette', cursive;
+    color: #ddc8ca;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+@keyframes snowfall {
+    100% {
+        background-position: 70em 70em;
+    }
+}
+
+@keyframes snowfall2 {
+    100% {
+        background-position: 50em 0;
+    }
+}
+
+/*przycisk*/
+
+.btn {
+    background-color: #DAC1C0;
+    border: 2px solid #A85C56;
+    border-radius: 30px;
+    box-shadow: #A85C56 4px 4px 0 0;
+    color: #A85C56;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Frijole', cursive;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    //touch-action: manipulation;
+}
+
+.btn:hover {
+    background-color: #fff;
+}

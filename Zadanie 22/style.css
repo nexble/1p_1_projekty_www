@@ -1,0 +1,12 @@
+#logo {
+    background-color: black;
+    color: orange;
+    height: 80px;
+    text-align: center;
+}
+
+#menu   {
+    background-color: gray;
+   height: 170px;
+    padding: 15px;
+}

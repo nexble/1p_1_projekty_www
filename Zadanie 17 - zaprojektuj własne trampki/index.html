@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zaprojektuj własne trampki</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Zaprojektuj własne trampki</h1>
+<h3>Autor: Olivia Chudy 1p_1</h3>
+<p>Chcesz zmienić swoje stare trampki na nową parę zaprojektowanych przez siebie butów Forcefield? Napisz nam, dlaczego sądzisz, że powinieneś <i>pożegnać się</i> ze swoimi wysłużonymi butami, a być może zostaniesz jednym laureatów konkursu!</p>
+<div>
+    <form action="#">
+        <fieldset>
+            <legend>Podstawowe dane</legend>
+            <label for="name">Imię i nazwisko:</label>
+            <input type="text" id="name"><br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email"><br>
+            <label for="number">Telephone:</label>
+            <input type="number" id="number"><br>
+            <label for="shoes">Moje buty są TAKIE stare...</label><br>
+            <textarea id="shoes" cols="30" rows="10">Nie więcej niż 300 znaków</textarea>
+        </fieldset>
+        <h2>Zaprojektuje własne trampki:</h2>
+        <fieldset>
+            <legend>Własny projekt butów</legend>
+            <fieldset>
+                <legend>Kolor <i>(wybierz jeden)</i></legend>
+                <input type="radio" value="red" name="grupa_opcji">czerwony<br>
+                <input type="radio" value="blue" name="grupa_opcji">niebieski<br>
+                <input type="radio" value="black" name="grupa_opcji">czarny<br>
+                <input type="radio" value="grey" name="grupa_opcji">szary<br>
+            </fieldset>
+            <fieldset>
+                <legend>Opcje <i>(możesz wybrać kilka)</i></legend>
+                <input type="checkbox">Wyższa podeszwa<br>
+                <input type="checkbox">Grubszy materiał<br>
+                <input type="checkbox">Kolorowe śnurówki (wybierz):<br>
+                <input type="radio" value="red" name="grupa_opcji">czerwony
+                <input type="radio" value="black" name="grupa_opcji">czarny
+                <input type="radio" value="white" name="grupa_opcji">biały
+                <input type="radio" value="other" name="grupa_opcji">inne (podaj jakie):
+                <input name="kolor"><br>
+                <input type="checkbox">Dowolny wzór (napisz jaki):<br>
+                <input name="design">
+            </fieldset>
+            <fieldset>
+                <legend>Rozmiar</legend>
+                <label for="size">Rozmiar zgodny ze standardowymi numerami butów:</label>
+                <select name="rozmiary" id="size">
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                    <option value="41">41</option>
+                    <option value="42">42</option>
+                    <option value="42">43</option>
+                    <option value="42">44</option>
+                    <option value="42">45</option>
+                </select>
+            </fieldset>
+        </fieldset>
+        <input type="submit" value="Podrasuj swoje buty!">
+        <input type="reset" value="Resetuj">
+    </form>
+</div>
+</body>
+</html>

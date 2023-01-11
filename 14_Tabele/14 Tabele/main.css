@@ -1,0 +1,9 @@
+body {
+    background-color: bisque;
+    margin: 50px;
+    font-family: arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    background-color: red;
+}

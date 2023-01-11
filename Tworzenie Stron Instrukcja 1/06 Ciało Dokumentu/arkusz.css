@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(197, 185, 171);
+    color: rgb(31, 18, 18);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    height: 120px;
+    line-height: 120px;
+}
+nav {
+    background-color: rgb(180, 158, 149);
+    color: rgb(31, 18, 18);
+    padding: 30px;
+}
+
+
+a {
+    color: rgb(72, 55, 95);
+    text-decoration: none;
+}
+
+article {
+    background-color: rgb(134, 121, 104);
+    color: rgb(31, 18, 18);
+    width: 70%;
+    float: left;
+    padding: 30px;
+    height: 200px;
+}
+ 
+aside { 
+    background-color: rgb(107, 76, 70);
+    color: rgb(31, 18, 18);
+    width: 30%;
+    float: left;
+    height: 200px;
+    padding: 30px;
+    text-align: center;
+    line-height: 150px;
+}
+
+
+footer {
+    background-color: rgb(112, 101, 90);
+    color: rgb(31, 18, 18);
+    text-align: center;
+    height: 100px;
+    padding: 50px;
+    clear: both;
+    line-height: 50%;
+}
+
+section {
+    border: 1px solid black;
+    padding: 30px;
+}

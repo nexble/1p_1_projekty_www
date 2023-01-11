@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Znaczniki &lt;progress&gt; i &lt;meter&gt;</title>
+  <style>
+    body {
+      font-family: 'Palatino Linotype', serif;
+    }
+
+    h1  {
+      font-size: x-large;
+      margin-top: 20px;
+      margin-bottom: 0;
+    }
+
+    p {
+      margin: 2px;
+    }
+
+    .separatedSection {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Paski postępu</h1>
+Postęp: <progress max="100" value="50">50%</progress>
+<br>
+Postęp: <progress>Wykonywanie zadania w toku... </progress>
+
+<h1>Wskażniki</h1>
+Twoja torba waży: <meter min="2" max="25" value="13">13 kilogramów</meter>
+Twoja torba waży: <meter min="2" max="25" low="4" high="15" value="16">16 kilogramów</meter>*
+<p><small>* Torba ważąca więcej niz 20kg obowiązkuje dodatkową opłate 30zl.</small></p>
+<div class="separatedSection">
+  <p>>Zbieramy dla dzieci z rakiem.</p>
+  <p>>Do tej pory zebraliśmy 30 000 dolarów. <meter max="50000" value="30000"></meter></p>
+
+</div>
+</body>
+</html>
